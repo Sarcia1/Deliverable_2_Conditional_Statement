@@ -17,15 +17,15 @@ namespace Deliverable_2_Conditional_Statement
                 {
                     Console.WriteLine("You letter grade will be an A.");
                 }
-                else if ((grade >= 80) && (grade <= 89))
+                else if ((grade >= 80) && (grade < 90))
                 {
                     Console.WriteLine("Your letter grade will be a B.");
                 }
-                else if ((grade >= 70) && (grade <= 79))
+                else if ((grade >= 70) && (grade < 80))
                 {
                     Console.WriteLine("Your letter grade will be a C.");
                 }
-                else if ((grade >= 60) && (grade <= 69))
+                else if ((grade >= 60) && (grade < 70))
                 {
                     Console.WriteLine("Your letter grade will be a D.");
                 }
